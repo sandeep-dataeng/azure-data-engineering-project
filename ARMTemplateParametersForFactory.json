@@ -3,19 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "factoryName": {
-            "value": "adf-dust"
+            "value": "azurefundamentalssand"
         },
-        "linkedservice1_accountKey": {
+        "ls_dataset_accountKey": {
             "value": ""
         },
-        "ManagerTrigger_properties_typeProperties_scope": {
-            "value": "/subscriptions/982b6eee-178b-4363-a553-5c3644457cb1/resourceGroups/RG-ADF/providers/Microsoft.Storage/storageAccounts/storage1adfsand"
-        },
-        "linkedservice1_properties_typeProperties_url": {
-            "value": "https://storage1adfsand.dfs.core.windows.net/"
-        },
-        "linkedgit_properties_typeProperties_url": {
-            "value": "https://raw.githubusercontent.com/"
+        "ls_dataset_properties_typeProperties_url": {
+            "value": "https://azurefundstoragesand.dfs.core.windows.net/"
         }
     }
 }
