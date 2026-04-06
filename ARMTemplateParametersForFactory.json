@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adf-dust"
+        },
+        "linkedservice1_accountKey": {
+            "value": ""
+        },
+        "ManagerTrigger_properties_typeProperties_scope": {
+            "value": "/subscriptions/982b6eee-178b-4363-a553-5c3644457cb1/resourceGroups/RG-ADF/providers/Microsoft.Storage/storageAccounts/storage1adfsand"
+        },
+        "linkedservice1_properties_typeProperties_url": {
+            "value": "https://storage1adfsand.dfs.core.windows.net/"
+        },
+        "linkedgit_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/"
+        }
+    }
+}
